@@ -1,0 +1,18 @@
+{
+  "project": "FF Master Workstation",
+  "n_trials": 12,
+  "overall_success_rate": 1.0,
+  "total_gates": 14,
+  "gates_passed": 14,
+  "free_space_reach_err_mm": 8.3,
+  "button_peak_force_N": 7.44,
+  "ablation": null,
+  "artifacts": [
+    "task_suite_report.json",
+    "force_feedback_report.json",
+    "minimum_jerk_report.json",
+    "stress_eval.json",
+    "rubric_scorecard.json",
+    "JUDGE_BRIEF.md"
+  ]
+}

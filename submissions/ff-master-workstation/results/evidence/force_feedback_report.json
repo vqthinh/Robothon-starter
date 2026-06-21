@@ -1,0 +1,219 @@
+{
+  "description": "REAL closed-loop contact force during a button press, read live via mj_contactForce summed over pad<->cap contacts. The control loop advances the hand until the measured force crosses the actuation threshold, then holds.",
+  "actuation_threshold_N": 3.5,
+  "crush_limit_N": 15.0,
+  "peak_force_N": 7.44,
+  "samples": 42,
+  "trace": [
+    {
+      "t": 0.64,
+      "contact_force_N": 2.778,
+      "depth_mm": 7.72
+    },
+    {
+      "t": 0.664,
+      "contact_force_N": 4.671,
+      "depth_mm": 13.34
+    },
+    {
+      "t": 0.672,
+      "contact_force_N": 4.932,
+      "depth_mm": 15.79
+    },
+    {
+      "t": 0.68,
+      "contact_force_N": 5.198,
+      "depth_mm": 18.1
+    },
+    {
+      "t": 0.688,
+      "contact_force_N": 6.059,
+      "depth_mm": 20.19
+    },
+    {
+      "t": 0.696,
+      "contact_force_N": 6.293,
+      "depth_mm": 21.96
+    },
+    {
+      "t": 0.704,
+      "contact_force_N": 5.714,
+      "depth_mm": 23.4
+    },
+    {
+      "t": 0.712,
+      "contact_force_N": 5.829,
+      "depth_mm": 24.62
+    },
+    {
+      "t": 0.72,
+      "contact_force_N": 5.912,
+      "depth_mm": 25.61
+    },
+    {
+      "t": 0.728,
+      "contact_force_N": 6.698,
+      "depth_mm": 26.36
+    },
+    {
+      "t": 0.736,
+      "contact_force_N": 6.657,
+      "depth_mm": 26.77
+    },
+    {
+      "t": 0.744,
+      "contact_force_N": 6.404,
+      "depth_mm": 26.94
+    },
+    {
+      "t": 0.752,
+      "contact_force_N": 5.719,
+      "depth_mm": 26.95
+    },
+    {
+      "t": 0.76,
+      "contact_force_N": 5.894,
+      "depth_mm": 26.87
+    },
+    {
+      "t": 0.768,
+      "contact_force_N": 6.648,
+      "depth_mm": 26.71
+    },
+    {
+      "t": 0.776,
+      "contact_force_N": 6.583,
+      "depth_mm": 26.5
+    },
+    {
+      "t": 0.784,
+      "contact_force_N": 5.734,
+      "depth_mm": 26.26
+    },
+    {
+      "t": 0.792,
+      "contact_force_N": 5.693,
+      "depth_mm": 25.99
+    },
+    {
+      "t": 0.8,
+      "contact_force_N": 7.439,
+      "depth_mm": 25.6
+    },
+    {
+      "t": 0.808,
+      "contact_force_N": 5.577,
+      "depth_mm": 25.11
+    },
+    {
+      "t": 0.816,
+      "contact_force_N": 5.51,
+      "depth_mm": 24.57
+    },
+    {
+      "t": 0.824,
+      "contact_force_N": 6.104,
+      "depth_mm": 24.03
+    },
+    {
+      "t": 0.832,
+      "contact_force_N": 6.008,
+      "depth_mm": 23.43
+    },
+    {
+      "t": 0.84,
+      "contact_force_N": 5.313,
+      "depth_mm": 22.85
+    },
+    {
+      "t": 0.848,
+      "contact_force_N": 5.259,
+      "depth_mm": 22.31
+    },
+    {
+      "t": 0.856,
+      "contact_force_N": 5.201,
+      "depth_mm": 21.8
+    },
+    {
+      "t": 0.864,
+      "contact_force_N": 5.16,
+      "depth_mm": 21.31
+    },
+    {
+      "t": 0.872,
+      "contact_force_N": 5.652,
+      "depth_mm": 20.83
+    },
+    {
+      "t": 0.88,
+      "contact_force_N": 5.077,
+      "depth_mm": 20.35
+    },
+    {
+      "t": 0.888,
+      "contact_force_N": 5.04,
+      "depth_mm": 19.9
+    },
+    {
+      "t": 0.896,
+      "contact_force_N": 5.062,
+      "depth_mm": 19.47
+    },
+    {
+      "t": 0.904,
+      "contact_force_N": 5.042,
+      "depth_mm": 19.04
+    },
+    {
+      "t": 0.912,
+      "contact_force_N": 5.022,
+      "depth_mm": 18.62
+    },
+    {
+      "t": 0.92,
+      "contact_force_N": 5.004,
+      "depth_mm": 18.21
+    },
+    {
+      "t": 0.928,
+      "contact_force_N": 4.987,
+      "depth_mm": 17.81
+    },
+    {
+      "t": 0.936,
+      "contact_force_N": 4.97,
+      "depth_mm": 17.42
+    },
+    {
+      "t": 0.944,
+      "contact_force_N": 4.958,
+      "depth_mm": 17.05
+    },
+    {
+      "t": 0.952,
+      "contact_force_N": 4.943,
+      "depth_mm": 16.69
+    },
+    {
+      "t": 0.96,
+      "contact_force_N": 4.661,
+      "depth_mm": 16.35
+    },
+    {
+      "t": 0.968,
+      "contact_force_N": 4.926,
+      "depth_mm": 16.03
+    },
+    {
+      "t": 0.976,
+      "contact_force_N": 4.915,
+      "depth_mm": 15.72
+    },
+    {
+      "t": 0.984,
+      "contact_force_N": 4.903,
+      "depth_mm": 15.43
+    }
+  ]
+}

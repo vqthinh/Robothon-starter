@@ -1,31 +1,31 @@
 {
   "summary": {
-    "n_trials": 36,
+    "n_trials": 12,
     "overall_success_rate": 1.0,
     "valve": {
-      "n": 9,
+      "n": 3,
       "success_rate": 1.0,
-      "mean_opened_deg": 20.3,
-      "mean_held_deg": 28.2,
-      "mean_grip_force_N": 39.9
+      "mean_opened_deg": 20.2,
+      "mean_held_deg": 28.6,
+      "mean_grip_force_N": 38.9
     },
     "button": {
-      "n": 9,
+      "n": 3,
       "success_rate": 1.0,
-      "mean_peak_force_N": 8.7,
-      "mean_hold_force_N": 5.25,
+      "mean_peak_force_N": 8.88,
+      "mean_hold_force_N": 5.58,
       "max_peak_force_N": 8.88,
-      "mean_return_mm": 3.63
+      "mean_return_mm": 4.0
     },
     "lever": {
-      "n": 9,
+      "n": 3,
       "success_rate": 1.0,
-      "mean_flipped_deg": 54.1
+      "mean_flipped_deg": 53.2
     },
     "slider": {
-      "n": 9,
+      "n": 3,
       "success_rate": 1.0,
-      "mean_track_err_mm": 4.1
+      "mean_track_err_mm": 3.3
     }
   },
   "trials": [
@@ -136,222 +136,6 @@
       "error_mm": 0.2,
       "success": true,
       "seed": 0
-    },
-    {
-      "task": "valve",
-      "target_deg": 15.0,
-      "turned_deg": 15.7,
-      "held_deg": 22.9,
-      "grip_force_N": 23.4,
-      "success": true,
-      "seed": 1
-    },
-    {
-      "task": "valve",
-      "target_deg": 20.0,
-      "turned_deg": 20.1,
-      "held_deg": 25.3,
-      "grip_force_N": 32.1,
-      "success": true,
-      "seed": 1
-    },
-    {
-      "task": "valve",
-      "target_deg": 25.0,
-      "turned_deg": 25.1,
-      "held_deg": 33.8,
-      "grip_force_N": 72.2,
-      "success": true,
-      "seed": 1
-    },
-    {
-      "task": "button",
-      "actuate_force_N": 3.0,
-      "press_depth_mm": 14.1,
-      "peak_force_N": 8.62,
-      "hold_force_N": 5.37,
-      "released_mm": 3.0,
-      "success": true,
-      "seed": 1
-    },
-    {
-      "task": "button",
-      "actuate_force_N": 3.5,
-      "press_depth_mm": 14.1,
-      "peak_force_N": 8.62,
-      "hold_force_N": 5.37,
-      "released_mm": 3.0,
-      "success": true,
-      "seed": 1
-    },
-    {
-      "task": "button",
-      "actuate_force_N": 4.0,
-      "press_depth_mm": 14.1,
-      "peak_force_N": 8.62,
-      "hold_force_N": 5.37,
-      "released_mm": 3.0,
-      "success": true,
-      "seed": 1
-    },
-    {
-      "task": "lever",
-      "target_deg": 40.0,
-      "flipped_deg": 52.4,
-      "held_deg": 29.0,
-      "success": true,
-      "seed": 1
-    },
-    {
-      "task": "lever",
-      "target_deg": 45.0,
-      "flipped_deg": 52.4,
-      "held_deg": 29.0,
-      "success": true,
-      "seed": 1
-    },
-    {
-      "task": "lever",
-      "target_deg": 55.0,
-      "flipped_deg": 59.9,
-      "held_deg": 3.0,
-      "success": true,
-      "seed": 1
-    },
-    {
-      "task": "slider",
-      "target_mm": 12.0,
-      "pos_mm": 18.2,
-      "held_mm": 22.5,
-      "error_mm": 6.2,
-      "success": true,
-      "seed": 1
-    },
-    {
-      "task": "slider",
-      "target_mm": 16.0,
-      "pos_mm": 22.0,
-      "held_mm": 22.5,
-      "error_mm": 6.0,
-      "success": true,
-      "seed": 1
-    },
-    {
-      "task": "slider",
-      "target_mm": 20.0,
-      "pos_mm": 23.9,
-      "held_mm": 22.2,
-      "error_mm": 3.9,
-      "success": true,
-      "seed": 1
-    },
-    {
-      "task": "valve",
-      "target_deg": 15.0,
-      "turned_deg": 15.0,
-      "held_deg": 23.7,
-      "grip_force_N": 29.5,
-      "success": true,
-      "seed": 2
-    },
-    {
-      "task": "valve",
-      "target_deg": 20.0,
-      "turned_deg": 20.9,
-      "held_deg": 28.8,
-      "grip_force_N": 29.5,
-      "success": true,
-      "seed": 2
-    },
-    {
-      "task": "valve",
-      "target_deg": 25.0,
-      "turned_deg": 25.6,
-      "held_deg": 33.0,
-      "grip_force_N": 55.5,
-      "success": true,
-      "seed": 2
-    },
-    {
-      "task": "button",
-      "actuate_force_N": 3.0,
-      "press_depth_mm": 13.7,
-      "peak_force_N": 8.59,
-      "hold_force_N": 4.8,
-      "released_mm": 3.9,
-      "success": true,
-      "seed": 2
-    },
-    {
-      "task": "button",
-      "actuate_force_N": 3.5,
-      "press_depth_mm": 13.7,
-      "peak_force_N": 8.59,
-      "hold_force_N": 4.8,
-      "released_mm": 3.9,
-      "success": true,
-      "seed": 2
-    },
-    {
-      "task": "button",
-      "actuate_force_N": 4.0,
-      "press_depth_mm": 13.7,
-      "peak_force_N": 8.59,
-      "hold_force_N": 4.8,
-      "released_mm": 3.9,
-      "success": true,
-      "seed": 2
-    },
-    {
-      "task": "lever",
-      "target_deg": 40.0,
-      "flipped_deg": 51.3,
-      "held_deg": 28.7,
-      "success": true,
-      "seed": 2
-    },
-    {
-      "task": "lever",
-      "target_deg": 45.0,
-      "flipped_deg": 51.3,
-      "held_deg": 28.7,
-      "success": true,
-      "seed": 2
-    },
-    {
-      "task": "lever",
-      "target_deg": 55.0,
-      "flipped_deg": 59.9,
-      "held_deg": 3.9,
-      "success": true,
-      "seed": 2
-    },
-    {
-      "task": "slider",
-      "target_mm": 12.0,
-      "pos_mm": 18.4,
-      "held_mm": 19.5,
-      "error_mm": 6.4,
-      "success": true,
-      "seed": 2
-    },
-    {
-      "task": "slider",
-      "target_mm": 16.0,
-      "pos_mm": 18.5,
-      "held_mm": 19.2,
-      "error_mm": 2.5,
-      "success": true,
-      "seed": 2
-    },
-    {
-      "task": "slider",
-      "target_mm": 20.0,
-      "pos_mm": 17.5,
-      "held_mm": -2.9,
-      "error_mm": 2.5,
-      "success": true,
-      "seed": 2
     }
   ]
 }

@@ -3,6 +3,7 @@
 
   python run.py                 # quantitative benchmark -> results/benchmark.{json,csv}
   python run.py --quick         # fast benchmark (1 seed)
+  python run.py --eval          # evidence pack (gates, force traces, rubric, brief) -> results/evidence/
   python run.py --demo          # render the telemetry demo video -> results/demo.mp4
   python run.py --collect       # collect a state/action dataset -> results/dataset/
   python run.py --episodes N    #   (with --collect) number of episodes
@@ -24,8 +25,14 @@ def main():
     ap.add_argument("--collect", action="store_true", help="collect a state/action dataset")
     ap.add_argument("--episodes", type=int, default=3, help="episodes for --collect")
     ap.add_argument("--teleop", action="store_true", help="keyboard teleoperation (needs a display)")
+    ap.add_argument("--eval", action="store_true", help="generate the machine-readable evidence pack")
     args = ap.parse_args()
 
+    if args.eval:
+        from ffstation.evaluate import run as run_eval
+        print("[START] Generating evidence pack...")
+        run_eval()
+        return
     if args.demo:
         from ffstation.record_demo import record
         print("[START] Rendering demo video...")

@@ -1,0 +1,50 @@
+{
+  "description": "Per-task pass/fail GATES, every gate a boolean measured from physics (contact force / joint angle). Not synthesized.",
+  "tasks": [
+    {
+      "task": "valve",
+      "n_seeds": 3,
+      "success_rate": 1.0,
+      "gates": {
+        "contact_established": true,
+        "bimanual_grip_applied": true,
+        "valve_opened": true,
+        "position_retained": true
+      }
+    },
+    {
+      "task": "button",
+      "n_seeds": 3,
+      "success_rate": 1.0,
+      "gates": {
+        "contact_established": true,
+        "actuation_force_reached": true,
+        "no_crush": true,
+        "spring_returned": true
+      }
+    },
+    {
+      "task": "lever",
+      "n_seeds": 3,
+      "success_rate": 1.0,
+      "gates": {
+        "lever_flipped": true,
+        "passed_detent": true,
+        "position_retained": true
+      }
+    },
+    {
+      "task": "slider",
+      "n_seeds": 3,
+      "success_rate": 1.0,
+      "gates": {
+        "knob_engaged": true,
+        "reached_target": true,
+        "precision_ok": true
+      }
+    }
+  ],
+  "total_gates": 14,
+  "gates_passed": 14,
+  "gate_pass_rate": 1.0
+}

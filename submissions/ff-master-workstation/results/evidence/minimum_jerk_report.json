@@ -1,0 +1,11 @@
+{
+  "profile": "quintic minimum-jerk  tau(s) = 10 s^3 - 15 s^4 + 6 s^5  (zero vel/accel at endpoints)",
+  "applied_to": "every Cartesian hand approach (valve/button/lever/slider) via joint-space reference",
+  "free_space_reach": {
+    "n_waypoints": 10,
+    "mean_reach_err_mm": 8.3,
+    "max_reach_err_mm": 18.3,
+    "track_err_settled_deg": 1.82
+  },
+  "note": "Reach accuracy measured on no-contact waypoints; contact tasks intentionally over-target to apply force."
+}

@@ -1,0 +1,48 @@
+{
+  "n_seeds": 3,
+  "n_trials": 12,
+  "overall_success_rate": 1.0,
+  "panel_jitter_mm": "+/-3",
+  "per_task": {
+    "valve": {
+      "metric": "turned_deg",
+      "mean": 20.6,
+      "std": 0.356,
+      "ci95": [
+        20.107,
+        21.093
+      ],
+      "success_rate": 1.0
+    },
+    "button": {
+      "metric": "peak_force_N",
+      "mean": 9.15,
+      "std": 0.576,
+      "ci95": [
+        8.352,
+        9.948
+      ],
+      "success_rate": 1.0
+    },
+    "lever": {
+      "metric": "flipped_deg",
+      "mean": 50.7,
+      "std": 0.497,
+      "ci95": [
+        50.012,
+        51.388
+      ],
+      "success_rate": 1.0
+    },
+    "slider": {
+      "metric": "error_mm",
+      "mean": 2.83,
+      "std": 2.207,
+      "ci95": [
+        -0.225,
+        5.891
+      ],
+      "success_rate": 1.0
+    }
+  }
+}

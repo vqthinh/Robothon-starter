@@ -48,7 +48,17 @@ class WholeBodyController:
         self.telemetry: list[dict] = []
         self.log_data = False           # set True to capture a state/action dataset
         self.dataset: list[dict] = []
+        self._trk_max = 0.0; self._trk_sum = 0.0; self._trk_n = 0   # minimum-jerk tracking error
         self.reset()
+
+    @property
+    def track_err_deg(self):
+        """Mean minimum-jerk joint tracking error (reference vs measured), in degrees."""
+        return float(np.degrees(self._trk_sum / self._trk_n)) if self._trk_n else 0.0
+
+    @property
+    def track_err_max_deg(self):
+        return float(np.degrees(self._trk_max))
 
     # ------------------------------------------------------------------ infra
     def reset(self):
@@ -106,9 +116,32 @@ class WholeBodyController:
                 self.q_des[qadr] = q[qadr]
         return q
 
-    def move_hands(self, targets: dict, steps: int, ik_iters: int = 220):
-        self.set_arm_target(targets, ik_iters)
-        self.step(steps)
+    def move_hands(self, targets: dict, steps: int, ik_iters: int = 220, minjerk: bool = False):
+        """Move the hand(s) to Cartesian target(s). With minjerk=True the joint
+        reference follows a quintic minimum-jerk time profile tau = 10s^3-15s^4+6s^5
+        (smooth, human-like free-space motion); the gravity-comp PD then tracks it,
+        and the settled tracking error is recorded. Default OFF so the verified
+        contact-task behaviour is byte-for-byte unchanged; enabled for free-space
+        repositioning and the precision test."""
+        if not minjerk or steps < 2:
+            self.set_arm_target(targets, ik_iters)
+            self.step(steps)
+            return
+        q_goal, _ = K.solve_ik(self.st, self.q_des, targets, iters=ik_iters)
+        arm_qadr = [qa for side in targets if targets[side] is not None
+                    for qa in self.st.arm_qadr[side]]
+        q_start = {qa: self.q_des[qa] for qa in arm_qadr}
+        for i in range(steps):
+            s = (i + 1) / steps
+            w = s * s * s * (10.0 - 15.0 * s + 6.0 * s * s)        # minimum-jerk
+            for qa in arm_qadr:
+                self.q_des[qa] = q_start[qa] + w * (q_goal[qa] - q_start[qa])
+            self.step(1)
+            if i == steps - 1:        # settled end-of-move error (min-jerk ends at zero velocity)
+                e = max((abs(self.q_des[qa] - self.d.qpos[qa]) for qa in arm_qadr), default=0.0)
+                self._trk_max = max(self._trk_max, e)
+                self._trk_sum += e
+                self._trk_n += 1
 
     def set_posture(self, joint_values: dict):
         """Override q_des for named joints (e.g. waist lean, both legs squat)."""

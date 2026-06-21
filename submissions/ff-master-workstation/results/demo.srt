@@ -1,0 +1,43 @@
+1
+00:00:00,000 --> 00:00:03,636
+A humanoid turning an industrial hand-wheel — two hands, real grip force.
+
+2
+00:00:03,636 --> 00:00:07,727
+FF Master Workstation — bimanual operation of human-designed industrial controls.
+
+3
+00:00:07,727 --> 00:00:10,000
+Bimanual valve: Control · two hands turn the wheel by real grip friction
+
+4
+00:00:10,000 --> 00:00:19,591
+Bimanual valve — live force/angle telemetry from real sensors.
+
+5
+00:00:19,591 --> 00:00:21,864
+Force-feedback button: Dexterity · closed-loop contact force, measured not scripted
+
+6
+00:00:21,864 --> 00:00:28,545
+Force-feedback button — live force/angle telemetry from real sensors.
+
+7
+00:00:28,545 --> 00:00:30,818
+Toggle lever: Task design · flip the mode lever past its detent
+
+8
+00:00:30,818 --> 00:00:36,591
+Toggle lever — live force/angle telemetry from real sensors.
+
+9
+00:00:36,591 --> 00:00:38,864
+Throttle slider: Precision · push the throttle to a commanded set-point
+
+10
+00:00:38,864 --> 00:00:54,136
+Throttle slider — live force/angle telemetry from real sensors.
+
+11
+00:00:54,136 --> 00:00:59,136
+14/14 gates, 100% over 12 trials — all measured from physics.

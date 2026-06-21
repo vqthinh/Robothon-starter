@@ -1,0 +1,45 @@
+{
+  "note": "Each contest rubric criterion mapped to the file that proves it.",
+  "criteria": [
+    {
+      "criterion": "Reproducibility",
+      "evidence": "run.py / evaluate.py regenerate every artifact; pure CPU, deterministic seeds",
+      "file": "evaluation_report.json"
+    },
+    {
+      "criterion": "MuJoCo depth",
+      "evidence": "MjSpec model build, hinge/slide mechanisms, touch sensors, mj_contactForce, mj_jacBody IK, soft contacts",
+      "file": "force_feedback_report.json"
+    },
+    {
+      "criterion": "Task design",
+      "evidence": "14 measured gates across 4 real industrial-control operations",
+      "file": "task_suite_report.json"
+    },
+    {
+      "criterion": "Control",
+      "evidence": "gravity-comp PD + DLS IK + closed-loop contact-force regulation + min-jerk shaping; closed-vs-open-loop ablation",
+      "file": "minimum_jerk_report.json"
+    },
+    {
+      "criterion": "Dexterity",
+      "evidence": "bimanual coordination (both hands turn one wheel) + force-regulated contact",
+      "file": "stress_eval.json"
+    },
+    {
+      "criterion": "Engineering quality",
+      "evidence": "typed modules, one-command eval, machine-readable artifacts",
+      "file": "rubric_scorecard.json"
+    },
+    {
+      "criterion": "Presentation",
+      "evidence": "telemetry demo video with live force/angle HUD, per-task captions",
+      "file": "../demo.mp4"
+    },
+    {
+      "criterion": "Innovation",
+      "evidence": "humanoid operating human-designed industrial controls; metrics measured from physics, not synthesized",
+      "file": "JUDGE_BRIEF.md"
+    }
+  ]
+}
