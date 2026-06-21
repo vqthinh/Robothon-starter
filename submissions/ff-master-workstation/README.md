@@ -183,3 +183,37 @@ simulation.
 
 - **FF Master** humanoid model: Faraday Future, shipped in this repository under `assets/Master/`.
 - Built with an AI coding agent as part of FFAI Robothon Summer 2026.
+
+
+---
+
+## Lite bench — learned policy, data collection, one-command reproducibility
+
+In addition to the mesh-based FF Master scene above, this submission ships a
+**self-contained, CPU-only, mesh-free companion bench** under
+[`lite/`](lite/README.md). It extends the project along three axes:
+
+- **Learned control.** A ridge-regression **imitation policy** (polynomial +
+  Fourier + RBF time features) is trained at launch from a scripted expert, then
+  run closed-loop with a sensor-feedback correction layer
+  (`lite/fflite/policy.py`).
+- **Data collection + evaluation.** `lite/collect_data.py` produces many
+  randomized learned-policy episodes as `.npz` files plus a `manifest.json`;
+  `lite/evaluate_policy.py` reports per-task and overall success rate (with a
+  `--no-feedback` ablation).
+- **Reproducibility.** The whole scene is generated as an in-code MJCF string —
+  **no external meshes, no GPU, one command**. Five fingertips (15 actuators,
+  20 DOF) operate a button, a throttle slider, a two-finger **chord**, and a
+  rotary **thumbwheel**.
+
+Measured: **20/20 = 100 %** full-routine success over randomized rollouts;
+robust to command-space jitter up to σ = 0.016.
+
+```bash
+python -m pip install -r submissions/ff-master-workstation/lite/requirements.txt
+python submissions/ff-master-workstation/lite/run_demo.py
+python submissions/ff-master-workstation/lite/evaluate_policy.py --episodes 20
+python submissions/ff-master-workstation/lite/collect_data.py --episodes 20
+```
+
+See [`lite/README.md`](lite/README.md) for full details.

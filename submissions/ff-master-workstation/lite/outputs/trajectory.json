@@ -1,0 +1,8768 @@
+{
+  "metrics": {
+    "button_depth": 0.032831573654069,
+    "slider_pos": 0.07583972531604977,
+    "keyg_depth": 0.02797812409798924,
+    "keyb_depth": 0.02797812409798924,
+    "wheel_angle": 4.790638553117541,
+    "chord_sim": 0.02797812409798924
+  },
+  "success": {
+    "button": true,
+    "slider": true,
+    "chord": true,
+    "wheel": true
+  },
+  "trajectory": [
+    {
+      "t": 0.0,
+      "button_depth": -0.0,
+      "slider_pos": 0.0,
+      "keyg_depth": -0.0,
+      "keyb_depth": -0.0,
+      "wheel_angle": 0.0,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.2
+        ]
+      }
+    },
+    {
+      "t": 0.04,
+      "button_depth": 0.00456,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00297,
+      "keyb_depth": 0.00297,
+      "wheel_angle": 0.04736,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2017
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 0.08,
+      "button_depth": 0.00922,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00481,
+      "keyb_depth": 0.00481,
+      "wheel_angle": 0.10358,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1974
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.1496,
+          0.0,
+          0.2002
+        ]
+      }
+    },
+    {
+      "t": 0.12,
+      "button_depth": 0.01023,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.0051,
+      "keyb_depth": 0.0051,
+      "wheel_angle": 0.14088,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.196
+        ],
+        "tip_index": [
+          -0.0802,
+          0.0,
+          0.2001
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.1496,
+          0.0,
+          0.2002
+        ]
+      }
+    },
+    {
+      "t": 0.16,
+      "button_depth": 0.00954,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00506,
+      "keyb_depth": 0.00506,
+      "wheel_angle": 0.221,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1969
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2001
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.2
+        ]
+      }
+    },
+    {
+      "t": 0.2,
+      "button_depth": 0.00898,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00503,
+      "keyb_depth": 0.00503,
+      "wheel_angle": 0.28844,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1992
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1999
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 0.24,
+      "button_depth": 0.00889,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 0.42701,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2016
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1503,
+          0.0,
+          0.1996
+        ]
+      }
+    },
+    {
+      "t": 0.28,
+      "button_depth": 0.00899,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 0.48989,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2032
+        ],
+        "tip_index": [
+          -0.0798,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1503,
+          0.0,
+          0.1996
+        ]
+      }
+    },
+    {
+      "t": 0.32,
+      "button_depth": 0.00905,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 0.53827,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1824
+        ],
+        "tip_index": [
+          -0.0798,
+          0.0,
+          0.1996
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1502,
+          0.0,
+          0.1997
+        ]
+      }
+    },
+    {
+      "t": 0.36,
+      "button_depth": 0.00906,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 0.58811,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.175
+        ],
+        "tip_index": [
+          -0.0798,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 0.4,
+      "button_depth": 0.00905,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 0.61588,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.171
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 0.44,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 0.63373,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1655
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1999
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.1498,
+          0.0,
+          0.2
+        ]
+      }
+    },
+    {
+      "t": 0.48,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 0.65808,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1587
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.1498,
+          0.0,
+          0.2001
+        ]
+      }
+    },
+    {
+      "t": 0.52,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 0.71068,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1512
+        ],
+        "tip_index": [
+          -0.0802,
+          0.0,
+          0.2001
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.1498,
+          0.0,
+          0.2
+        ]
+      }
+    },
+    {
+      "t": 0.56,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 0.76984,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1434
+        ],
+        "tip_index": [
+          -0.0802,
+          0.0,
+          0.2002
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.2
+        ]
+      }
+    },
+    {
+      "t": 0.6,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 0.85404,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1356
+        ],
+        "tip_index": [
+          -0.0802,
+          0.0,
+          0.2001
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 0.64,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 0.95882,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.128
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 0.68,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 0.99243,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1206
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1999
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 0.72,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.04973,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.113
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1502,
+          0.0,
+          0.1997
+        ]
+      }
+    },
+    {
+      "t": 0.76,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.07817,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1051
+        ],
+        "tip_index": [
+          -0.0798,
+          0.0,
+          0.1996
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1502,
+          0.0,
+          0.1997
+        ]
+      }
+    },
+    {
+      "t": 0.8,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.13441,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0963
+        ],
+        "tip_index": [
+          -0.0797,
+          0.0,
+          0.1995
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 0.84,
+      "button_depth": 0.01068,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.20794,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0894
+        ],
+        "tip_index": [
+          -0.0797,
+          0.0,
+          0.1995
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1997
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1997
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 0.88,
+      "button_depth": 0.01313,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.24387,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0859
+        ],
+        "tip_index": [
+          -0.0798,
+          0.0,
+          0.1996
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 0.92,
+      "button_depth": 0.01538,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.24963,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0816
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 0.96,
+      "button_depth": 0.01756,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.32671,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0766
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.1999
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.2
+        ]
+      }
+    },
+    {
+      "t": 1.0,
+      "button_depth": 0.0206,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.34554,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0694
+        ],
+        "tip_index": [
+          -0.0803,
+          0.0,
+          0.2001
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.2
+        ]
+      }
+    },
+    {
+      "t": 1.04,
+      "button_depth": 0.02496,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.39333,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0594
+        ],
+        "tip_index": [
+          -0.0804,
+          0.0,
+          0.2003
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.2
+        ]
+      }
+    },
+    {
+      "t": 1.08,
+      "button_depth": 0.02881,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.41293,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0508
+        ],
+        "tip_index": [
+          -0.0804,
+          0.0,
+          0.2003
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 1.12,
+      "button_depth": 0.03181,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.4716,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0443
+        ],
+        "tip_index": [
+          -0.0803,
+          0.0,
+          0.2003
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 1.16,
+      "button_depth": 0.02741,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.53743,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0356
+        ],
+        "tip_index": [
+          -0.0802,
+          0.0,
+          0.2001
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 1.2,
+      "button_depth": 0.01054,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.61227,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0265
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1999
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 1.24,
+      "button_depth": 0.00515,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.71767,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0031
+        ],
+        "tip_index": [
+          -0.0797,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 1.28,
+      "button_depth": 0.00688,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.81671,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0021
+        ],
+        "tip_index": [
+          -0.0795,
+          0.0,
+          0.1995
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 1.32,
+      "button_depth": 0.00901,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 1.94278,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0098
+        ],
+        "tip_index": [
+          -0.0794,
+          0.0,
+          0.1993
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1997
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1997
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 1.36,
+      "button_depth": 0.00956,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.0232,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0142
+        ],
+        "tip_index": [
+          -0.0795,
+          0.0,
+          0.1993
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1997
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1997
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 1.4,
+      "button_depth": 0.00929,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.114,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0144
+        ],
+        "tip_index": [
+          -0.0796,
+          0.0,
+          0.1994
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1997
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1997
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 1.44,
+      "button_depth": 0.00903,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.18221,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0124
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1997
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1997
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 1.48,
+      "button_depth": 0.00897,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.24261,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0095
+        ],
+        "tip_index": [
+          -0.0803,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 1.52,
+      "button_depth": 0.00901,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.28609,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0059
+        ],
+        "tip_index": [
+          -0.0807,
+          0.0,
+          0.2003
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 1.56,
+      "button_depth": 0.00905,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.3716,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0019
+        ],
+        "tip_index": [
+          -0.0809,
+          0.0,
+          0.2005
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 1.6,
+      "button_depth": 0.00905,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.40897,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          -0.0079
+        ],
+        "tip_index": [
+          -0.081,
+          0.0,
+          0.2006
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2001
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2001
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 1.64,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.46776,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          -0.0125
+        ],
+        "tip_index": [
+          -0.0808,
+          0.0,
+          0.2005
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2001
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2001
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 1.68,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.5236,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          -0.0128
+        ],
+        "tip_index": [
+          -0.0803,
+          0.0,
+          0.2002
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2001
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2001
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 1.72,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.65162,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          -0.0101
+        ],
+        "tip_index": [
+          -0.0796,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2001
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2001
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 1.76,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.70698,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          -0.0038
+        ],
+        "tip_index": [
+          -0.0788,
+          0.0,
+          0.1993
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 1.8,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.74441,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0126
+        ],
+        "tip_index": [
+          -0.0782,
+          0.0,
+          0.199
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 1.84,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.73718,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0278
+        ],
+        "tip_index": [
+          -0.0778,
+          0.0,
+          0.1989
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 1.88,
+      "button_depth": 0.00781,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.79158,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0444
+        ],
+        "tip_index": [
+          -0.0781,
+          0.0,
+          0.1991
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1996
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1996
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 1.92,
+      "button_depth": 0.00297,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.91018,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0531
+        ],
+        "tip_index": [
+          -0.079,
+          0.0,
+          0.1996
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1996
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1996
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 1.96,
+      "button_depth": -0.00071,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 2.99852,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0601
+        ],
+        "tip_index": [
+          -0.0808,
+          0.0,
+          0.2003
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1995
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1995
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.0,
+      "button_depth": -0.00065,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.04214,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.0754
+        ],
+        "tip_index": [
+          -0.0835,
+          0.0,
+          0.201
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1996
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1996
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.04,
+      "button_depth": 0.00397,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.06119,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1526
+        ],
+        "tip_index": [
+          -0.087,
+          0.0,
+          0.2014
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1997
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1997
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.08,
+      "button_depth": 0.00911,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.03399,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1726
+        ],
+        "tip_index": [
+          -0.0912,
+          0.0,
+          0.2009
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.12,
+      "button_depth": 0.01033,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.07266,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1864
+        ],
+        "tip_index": [
+          -0.0957,
+          0.0,
+          0.1992
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.16,
+      "button_depth": 0.00961,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.09072,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1967
+        ],
+        "tip_index": [
+          -0.1002,
+          0.0,
+          0.1957
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2001
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2001
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.2,
+      "button_depth": 0.00899,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.08737,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2035
+        ],
+        "tip_index": [
+          -0.1044,
+          0.0,
+          0.19
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2003
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2003
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.24,
+      "button_depth": 0.00887,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.07317,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2071
+        ],
+        "tip_index": [
+          -0.108,
+          0.0,
+          0.1819
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2003
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2003
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.28,
+      "button_depth": 0.00898,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.12046,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2082
+        ],
+        "tip_index": [
+          -0.1107,
+          0.0,
+          0.1714
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2002
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2002
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.32,
+      "button_depth": 0.00905,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.11199,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2074
+        ],
+        "tip_index": [
+          -0.1124,
+          0.0,
+          0.1586
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2001
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2001
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 2.36,
+      "button_depth": 0.00906,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.15461,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2054
+        ],
+        "tip_index": [
+          -0.1132,
+          0.0,
+          0.144
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 2.4,
+      "button_depth": 0.00905,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.20893,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2028
+        ],
+        "tip_index": [
+          -0.113,
+          0.0,
+          0.1283
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1997
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1997
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 2.44,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.23545,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2003
+        ],
+        "tip_index": [
+          -0.1122,
+          0.0,
+          0.1122
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1995
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1995
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 2.48,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.23693,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1983
+        ],
+        "tip_index": [
+          -0.1111,
+          0.0,
+          0.0967
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1994
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1994
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.52,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.22021,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1969
+        ],
+        "tip_index": [
+          -0.1098,
+          0.0,
+          0.0824
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1993
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1993
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.56,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.27121,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1962
+        ],
+        "tip_index": [
+          -0.1088,
+          0.0,
+          0.0701
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1994
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1994
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.6,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.27835,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1963
+        ],
+        "tip_index": [
+          -0.1082,
+          0.0,
+          0.0601
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1995
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1995
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.64,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.29597,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.197
+        ],
+        "tip_index": [
+          -0.108,
+          0.0,
+          0.0527
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.68,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.30046,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.198
+        ],
+        "tip_index": [
+          -0.1083,
+          0.0,
+          0.0477
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.72,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.27788,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1992
+        ],
+        "tip_index": [
+          -0.109,
+          0.0,
+          0.045
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2003
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2003
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.76,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.2719,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2003
+        ],
+        "tip_index": [
+          -0.1099,
+          0.0,
+          0.0439
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2004
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2004
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.8,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.30303,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2012
+        ],
+        "tip_index": [
+          -0.1108,
+          0.0,
+          0.0439
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2005
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2005
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.84,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.32028,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2018
+        ],
+        "tip_index": [
+          -0.1114,
+          0.0,
+          0.0445
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2005
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2005
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.88,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.3101,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2019
+        ],
+        "tip_index": [
+          -0.1115,
+          0.0,
+          0.0452
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2003
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2003
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 2.92,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.35629,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2018
+        ],
+        "tip_index": [
+          -0.1111,
+          0.0,
+          0.0457
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2001
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2001
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 2.96,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.3838,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2013
+        ],
+        "tip_index": [
+          -0.1101,
+          0.0,
+          0.0457
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1997
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1997
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 3.0,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.3896,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2007
+        ],
+        "tip_index": [
+          -0.1085,
+          0.0,
+          0.0455
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1994
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1994
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.04,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.36205,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.1064,
+          0.0,
+          0.0449
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1992
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1992
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.08,
+      "button_depth": 0.00904,
+      "slider_pos": 0.00067,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.37832,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1993
+        ],
+        "tip_index": [
+          -0.104,
+          0.0,
+          0.0444
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.199
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.199
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.12,
+      "button_depth": 0.00904,
+      "slider_pos": 0.00293,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.40669,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1988
+        ],
+        "tip_index": [
+          -0.1012,
+          0.0,
+          0.0439
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1991
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1991
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.16,
+      "button_depth": 0.00904,
+      "slider_pos": 0.00574,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.39335,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1985
+        ],
+        "tip_index": [
+          -0.0981,
+          0.0,
+          0.0437
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1993
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1993
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.2,
+      "button_depth": 0.00904,
+      "slider_pos": 0.00885,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.35574,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1985
+        ],
+        "tip_index": [
+          -0.0948,
+          0.0,
+          0.0439
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1996
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1996
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.24,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0122,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.35053,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1987
+        ],
+        "tip_index": [
+          -0.0913,
+          0.0,
+          0.0445
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.28,
+      "button_depth": 0.00904,
+      "slider_pos": 0.01581,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.38405,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1991
+        ],
+        "tip_index": [
+          -0.0875,
+          0.0,
+          0.0452
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2004
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2004
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.32,
+      "button_depth": 0.00904,
+      "slider_pos": 0.01973,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.41667,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1996
+        ],
+        "tip_index": [
+          -0.0833,
+          0.0,
+          0.0459
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2007
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2007
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.36,
+      "button_depth": 0.00904,
+      "slider_pos": 0.02403,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.47611,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0788,
+          0.0,
+          0.0464
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2009
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2009
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.4,
+      "button_depth": 0.00904,
+      "slider_pos": 0.02875,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.46569,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2005
+        ],
+        "tip_index": [
+          -0.0737,
+          0.0,
+          0.0465
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2009
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2009
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.44,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0339,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.52893,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2008
+        ],
+        "tip_index": [
+          -0.0682,
+          0.0,
+          0.0461
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2007
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2007
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.48,
+      "button_depth": 0.00904,
+      "slider_pos": 0.03945,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.6275,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2009
+        ],
+        "tip_index": [
+          -0.0624,
+          0.0,
+          0.0453
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2003
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2003
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.52,
+      "button_depth": 0.00904,
+      "slider_pos": 0.04529,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.68419,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2008
+        ],
+        "tip_index": [
+          -0.0563,
+          0.0,
+          0.0443
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.56,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05127,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.67632,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2006
+        ],
+        "tip_index": [
+          -0.0503,
+          0.0,
+          0.0433
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1993
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1993
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.6,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05722,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.67303,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2003
+        ],
+        "tip_index": [
+          -0.0443,
+          0.0,
+          0.0425
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1988
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1988
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.64,
+      "button_depth": 0.00904,
+      "slider_pos": 0.06297,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.73182,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0387,
+          0.0,
+          0.0423
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1985
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1985
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.68,
+      "button_depth": 0.00904,
+      "slider_pos": 0.06837,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.78206,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1995
+        ],
+        "tip_index": [
+          -0.0336,
+          0.0,
+          0.0428
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1985
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1985
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.72,
+      "button_depth": 0.00904,
+      "slider_pos": 0.07336,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.83915,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1993
+        ],
+        "tip_index": [
+          -0.0289,
+          0.0,
+          0.0439
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1988
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1988
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.76,
+      "button_depth": 0.00904,
+      "slider_pos": 0.07583,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.85966,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1991
+        ],
+        "tip_index": [
+          -0.025,
+          0.0,
+          0.0456
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1992
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1992
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.8,
+      "button_depth": 0.00904,
+      "slider_pos": 0.07554,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.89286,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1991
+        ],
+        "tip_index": [
+          -0.0215,
+          0.0,
+          0.0473
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.84,
+      "button_depth": 0.00904,
+      "slider_pos": 0.07556,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.9084,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1993
+        ],
+        "tip_index": [
+          -0.018,
+          0.0,
+          0.0488
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2006
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2006
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.88,
+      "button_depth": 0.00904,
+      "slider_pos": 0.07565,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.93739,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1995
+        ],
+        "tip_index": [
+          -0.0144,
+          0.0,
+          0.0496
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2012
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2012
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.92,
+      "button_depth": 0.00904,
+      "slider_pos": 0.07569,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.91698,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0096,
+          0.0,
+          0.0501
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2015
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2015
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 3.96,
+      "button_depth": 0.00904,
+      "slider_pos": 0.07541,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.89675,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2001
+        ],
+        "tip_index": [
+          -0.0038,
+          0.0,
+          0.0495
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2016
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2016
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.0,
+      "button_depth": 0.00904,
+      "slider_pos": 0.07523,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.94353,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2003
+        ],
+        "tip_index": [
+          0.0014,
+          -0.0,
+          0.0465
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2013
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2013
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.04,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0684,
+      "keyg_depth": 0.00597,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.97665,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2004
+        ],
+        "tip_index": [
+          0.0066,
+          -0.0,
+          0.0411
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2008
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2008
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.08,
+      "button_depth": 0.00904,
+      "slider_pos": 0.06448,
+      "keyg_depth": 0.0063,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 3.987,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2005
+        ],
+        "tip_index": [
+          0.0099,
+          -0.0,
+          0.0371
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.12,
+      "button_depth": 0.00904,
+      "slider_pos": 0.06354,
+      "keyg_depth": 0.00458,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.02527,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2004
+        ],
+        "tip_index": [
+          0.0134,
+          -0.0,
+          0.0343
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1991
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1991
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.16,
+      "button_depth": 0.00904,
+      "slider_pos": 0.06338,
+      "keyg_depth": 0.00384,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.02094,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2002
+        ],
+        "tip_index": [
+          0.015,
+          0.0,
+          0.0342
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1983
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1983
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.2,
+      "button_depth": 0.00904,
+      "slider_pos": 0.06336,
+      "keyg_depth": 0.00263,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.03003,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          0.0142,
+          0.0,
+          0.0371
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1977
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1977
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.24,
+      "button_depth": 0.00904,
+      "slider_pos": 0.06335,
+      "keyg_depth": -0.00026,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.02474,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          0.0107,
+          0.0,
+          0.0437
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1976
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1976
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.28,
+      "button_depth": 0.00904,
+      "slider_pos": 0.0606,
+      "keyg_depth": -0.00062,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.04316,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1996
+        ],
+        "tip_index": [
+          0.004,
+          0.0,
+          0.0543
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1979
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1979
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.32,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05327,
+      "keyg_depth": 0.00199,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.05471,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1994
+        ],
+        "tip_index": [
+          -0.0054,
+          0.0,
+          0.0721
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1986
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1986
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.36,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05132,
+      "keyg_depth": 0.00456,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.10513,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1994
+        ],
+        "tip_index": [
+          -0.0171,
+          0.0,
+          0.092
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1997
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1997
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.4,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05099,
+      "keyg_depth": 0.0051,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.15202,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1994
+        ],
+        "tip_index": [
+          -0.03,
+          0.0,
+          0.114
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2009
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2009
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.44,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05093,
+      "keyg_depth": 0.00507,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.19413,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1996
+        ],
+        "tip_index": [
+          -0.0434,
+          0.0,
+          0.1369
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2021
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2021
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.48,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00503,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.18578,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1997
+        ],
+        "tip_index": [
+          -0.0564,
+          0.0,
+          0.1592
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2029
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2029
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.52,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.16503,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0681,
+          0.0,
+          0.1791
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2031
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2031
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.56,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.15305,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2001
+        ],
+        "tip_index": [
+          -0.0776,
+          0.0,
+          0.1954
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2026
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2026
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.6,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.15102,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2002
+        ],
+        "tip_index": [
+          -0.0844,
+          0.0,
+          0.2072
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2012
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2012
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.64,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.15405,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2002
+        ],
+        "tip_index": [
+          -0.0884,
+          0.0,
+          0.2141
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1702
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1702
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.68,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.16501,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2002
+        ],
+        "tip_index": [
+          -0.0897,
+          0.0,
+          0.2164
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1658
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1658
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.72,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.17151,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2001
+        ],
+        "tip_index": [
+          -0.0887,
+          0.0,
+          0.2148
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1619
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1619
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.76,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.14317,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0861,
+          0.0,
+          0.2104
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1573
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1573
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.8,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.09119,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0827,
+          0.0,
+          0.2047
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1523
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1523
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.84,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.0668,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1997
+        ],
+        "tip_index": [
+          -0.0793,
+          0.0,
+          0.1988
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1469
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1469
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.88,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.06351,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1996
+        ],
+        "tip_index": [
+          -0.0765,
+          0.0,
+          0.1939
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.141
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.141
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.92,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.05221,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1996
+        ],
+        "tip_index": [
+          -0.0747,
+          0.0,
+          0.1909
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1347
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1347
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 4.96,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.08218,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1996
+        ],
+        "tip_index": [
+          -0.0742,
+          0.0,
+          0.1899
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1278
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1278
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.0,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.09255,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1997
+        ],
+        "tip_index": [
+          -0.0749,
+          0.0,
+          0.191
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1201
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1201
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.04,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.10823,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1997
+        ],
+        "tip_index": [
+          -0.0765,
+          0.0,
+          0.1938
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1115
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1115
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.08,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.152,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0786,
+          0.0,
+          0.1974
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1019
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1019
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.12,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.20139,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0808,
+          0.0,
+          0.2012
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0916
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0916
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.16,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00624,
+      "keyb_depth": 0.00624,
+      "wheel_angle": 4.21299,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0827,
+          0.0,
+          0.2044
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0822
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0822
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.2,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00876,
+      "keyb_depth": 0.00876,
+      "wheel_angle": 4.20663,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2001
+        ],
+        "tip_index": [
+          -0.0838,
+          0.0,
+          0.2064
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0781
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0781
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.24,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.01097,
+      "keyb_depth": 0.01097,
+      "wheel_angle": 4.20882,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2001
+        ],
+        "tip_index": [
+          -0.0842,
+          0.0,
+          0.207
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0743
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0743
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.28,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.01287,
+      "keyb_depth": 0.01287,
+      "wheel_angle": 4.24185,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2001
+        ],
+        "tip_index": [
+          -0.0837,
+          0.0,
+          0.2062
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0702
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0702
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.32,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.01452,
+      "keyb_depth": 0.01452,
+      "wheel_angle": 4.23196,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0825,
+          0.0,
+          0.2042
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0665
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0665
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.36,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.01642,
+      "keyb_depth": 0.01642,
+      "wheel_angle": 4.16026,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.081,
+          0.0,
+          0.2016
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0626
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0626
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.4,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.01869,
+      "keyb_depth": 0.01869,
+      "wheel_angle": 4.14482,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0793,
+          0.0,
+          0.1988
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0573
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0573
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.44,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.02032,
+      "keyb_depth": 0.02032,
+      "wheel_angle": 4.15521,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1997
+        ],
+        "tip_index": [
+          -0.078,
+          0.0,
+          0.1964
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0536
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0536
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 5.48,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.0214,
+      "keyb_depth": 0.0214,
+      "wheel_angle": 4.19244,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1997
+        ],
+        "tip_index": [
+          -0.0771,
+          0.0,
+          0.1949
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0514
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0514
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 5.52,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.02199,
+      "keyb_depth": 0.02199,
+      "wheel_angle": 4.28744,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1997
+        ],
+        "tip_index": [
+          -0.0768,
+          0.0,
+          0.1944
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0503
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0503
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 5.56,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.0223,
+      "keyb_depth": 0.0223,
+      "wheel_angle": 4.29865,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1997
+        ],
+        "tip_index": [
+          -0.0772,
+          0.0,
+          0.195
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0498
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0498
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 5.6,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.02258,
+      "keyb_depth": 0.02258,
+      "wheel_angle": 4.29069,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.078,
+          0.0,
+          0.1965
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0493
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0493
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 5.64,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.02306,
+      "keyb_depth": 0.02306,
+      "wheel_angle": 4.31417,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0792,
+          0.0,
+          0.1985
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0482
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0482
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.68,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.02389,
+      "keyb_depth": 0.02389,
+      "wheel_angle": 4.34926,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0805,
+          0.0,
+          0.2006
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0464
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0464
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.72,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.02508,
+      "keyb_depth": 0.02508,
+      "wheel_angle": 4.36866,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0815,
+          0.0,
+          0.2025
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0436
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0436
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.2
+        ]
+      }
+    },
+    {
+      "t": 5.76,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.02655,
+      "keyb_depth": 0.02655,
+      "wheel_angle": 4.42634,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0823,
+          0.0,
+          0.2037
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0402
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0402
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.2
+        ]
+      }
+    },
+    {
+      "t": 5.8,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.02788,
+      "keyb_depth": 0.02788,
+      "wheel_angle": 4.43167,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0825,
+          0.0,
+          0.2041
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0365
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0365
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.2
+        ]
+      }
+    },
+    {
+      "t": 5.84,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.01206,
+      "keyb_depth": 0.01206,
+      "wheel_angle": 4.44998,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0822,
+          0.0,
+          0.2037
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0304
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0304
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.2
+        ]
+      }
+    },
+    {
+      "t": 5.88,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00514,
+      "keyb_depth": 0.00514,
+      "wheel_angle": 4.46316,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0816,
+          0.0,
+          0.2026
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0096
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0096
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.2
+        ]
+      }
+    },
+    {
+      "t": 5.92,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.0046,
+      "keyb_depth": 0.0046,
+      "wheel_angle": 4.44629,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0807,
+          0.0,
+          0.201
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0041
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0041
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1999
+        ]
+      }
+    },
+    {
+      "t": 5.96,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.0049,
+      "keyb_depth": 0.0049,
+      "wheel_angle": 4.49518,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0797,
+          0.0,
+          0.1994
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0091
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0091
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1997
+        ]
+      }
+    },
+    {
+      "t": 6.0,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.52377,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0789,
+          0.0,
+          0.1979
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0178
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0178
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1996
+        ]
+      }
+    },
+    {
+      "t": 6.04,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00222,
+      "keyb_depth": 0.00222,
+      "wheel_angle": 4.55321,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0783,
+          0.0,
+          0.1969
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0568
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0568
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1995
+        ]
+      }
+    },
+    {
+      "t": 6.08,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": -0.00166,
+      "keyb_depth": -0.00166,
+      "wheel_angle": 4.51344,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.078,
+          0.0,
+          0.1965
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0753
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0753
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1995
+        ]
+      }
+    },
+    {
+      "t": 6.12,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00349,
+      "keyb_depth": 0.00349,
+      "wheel_angle": 4.53027,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0782,
+          0.0,
+          0.1968
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.0966
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.0966
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1996
+        ]
+      }
+    },
+    {
+      "t": 6.16,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00505,
+      "keyb_depth": 0.00505,
+      "wheel_angle": 4.5662,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0787,
+          0.0,
+          0.1976
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1179
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1179
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1998
+        ]
+      }
+    },
+    {
+      "t": 6.2,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00513,
+      "keyb_depth": 0.00513,
+      "wheel_angle": 4.57588,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0794,
+          0.0,
+          0.1988
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1393
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1393
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.2001
+        ]
+      }
+    },
+    {
+      "t": 6.24,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00505,
+      "keyb_depth": 0.00505,
+      "wheel_angle": 4.60346,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0802,
+          0.0,
+          0.2001
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1593
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1593
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.2004
+        ]
+      }
+    },
+    {
+      "t": 6.28,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.69256,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0808,
+          0.0,
+          0.2013
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1767
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1767
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.2006
+        ]
+      }
+    },
+    {
+      "t": 6.32,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.70468,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0813,
+          0.0,
+          0.2021
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1907
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1907
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.2007
+        ]
+      }
+    },
+    {
+      "t": 6.36,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.65263,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0815,
+          0.0,
+          0.2025
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2007
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2007
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.2005
+        ]
+      }
+    },
+    {
+      "t": 6.4,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.63655,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0814,
+          0.0,
+          0.2023
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2067
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2067
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1997
+        ]
+      }
+    },
+    {
+      "t": 6.44,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.6752,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0811,
+          0.0,
+          0.2017
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.209
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.209
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1983
+        ]
+      }
+    },
+    {
+      "t": 6.48,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.73335,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0805,
+          0.0,
+          0.2008
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2085
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2085
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1958
+        ]
+      }
+    },
+    {
+      "t": 6.52,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.77192,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.206
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.206
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1923
+        ]
+      }
+    },
+    {
+      "t": 6.56,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.76111,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0794,
+          0.0,
+          0.1988
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2027
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2027
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1876
+        ]
+      }
+    },
+    {
+      "t": 6.6,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.72589,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.079,
+          0.0,
+          0.1981
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1993
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1993
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.1817
+        ]
+      }
+    },
+    {
+      "t": 6.64,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.71468,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0788,
+          0.0,
+          0.1978
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1966
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1966
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1745
+        ]
+      }
+    },
+    {
+      "t": 6.68,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.70087,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0788,
+          0.0,
+          0.1979
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1951
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1951
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1661
+        ]
+      }
+    },
+    {
+      "t": 6.72,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.71348,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0791,
+          0.0,
+          0.1983
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1948
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1948
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1568
+        ]
+      }
+    },
+    {
+      "t": 6.76,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.67533,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0795,
+          0.0,
+          0.199
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1957
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1957
+        ],
+        "tip_pinky": [
+          0.1498,
+          0.0,
+          0.1468
+        ]
+      }
+    },
+    {
+      "t": 6.8,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.67546,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1973
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1973
+        ],
+        "tip_pinky": [
+          0.1498,
+          0.0,
+          0.1363
+        ]
+      }
+    },
+    {
+      "t": 6.84,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.71566,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0804,
+          0.0,
+          0.2006
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1993
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1993
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1256
+        ]
+      }
+    },
+    {
+      "t": 6.88,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.72356,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0808,
+          0.0,
+          0.2012
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2012
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2012
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.1152
+        ]
+      }
+    },
+    {
+      "t": 6.92,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.75578,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0809,
+          0.0,
+          0.2015
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2026
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2026
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.1053
+        ]
+      }
+    },
+    {
+      "t": 6.96,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.78877,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0809,
+          0.0,
+          0.2015
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2033
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2033
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.0963
+        ]
+      }
+    },
+    {
+      "t": 7.0,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.78057,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0807,
+          0.0,
+          0.2011
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2032
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2032
+        ],
+        "tip_pinky": [
+          0.1502,
+          0.0,
+          0.0882
+        ]
+      }
+    },
+    {
+      "t": 7.04,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.70743,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0804,
+          0.0,
+          0.2006
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2024
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2024
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.0819
+        ]
+      }
+    },
+    {
+      "t": 7.08,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.70741,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2012
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2012
+        ],
+        "tip_pinky": [
+          0.1502,
+          -0.0,
+          0.0767
+        ]
+      }
+    },
+    {
+      "t": 7.12,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.66512,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0797,
+          0.0,
+          0.1994
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1501,
+          0.0,
+          0.0726
+        ]
+      }
+    },
+    {
+      "t": 7.16,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.6408,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0794,
+          0.0,
+          0.1989
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1986
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1986
+        ],
+        "tip_pinky": [
+          0.15,
+          -0.0,
+          0.0696
+        ]
+      }
+    },
+    {
+      "t": 7.2,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.58784,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0793,
+          0.0,
+          0.1986
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1977
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1977
+        ],
+        "tip_pinky": [
+          0.1499,
+          0.0,
+          0.0676
+        ]
+      }
+    },
+    {
+      "t": 7.24,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.49915,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0793,
+          0.0,
+          0.1986
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1973
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1973
+        ],
+        "tip_pinky": [
+          0.1498,
+          0.0,
+          0.0665
+        ]
+      }
+    },
+    {
+      "t": 7.28,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.45686,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0794,
+          0.0,
+          0.1988
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1975
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1975
+        ],
+        "tip_pinky": [
+          0.1497,
+          -0.0,
+          0.066
+        ]
+      }
+    },
+    {
+      "t": 7.32,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.46376,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0796,
+          0.0,
+          0.1992
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1981
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1981
+        ],
+        "tip_pinky": [
+          0.1498,
+          0.0,
+          0.0659
+        ]
+      }
+    },
+    {
+      "t": 7.36,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.42572,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.199
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.199
+        ],
+        "tip_pinky": [
+          0.15,
+          0.0,
+          0.0661
+        ]
+      }
+    },
+    {
+      "t": 7.4,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.37972,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0802,
+          0.0,
+          0.2002
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2001
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2001
+        ],
+        "tip_pinky": [
+          0.1505,
+          -0.0,
+          0.0664
+        ]
+      }
+    },
+    {
+      "t": 7.44,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.32075,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0804,
+          0.0,
+          0.2006
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.201
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.201
+        ],
+        "tip_pinky": [
+          0.1512,
+          -0.0,
+          0.0667
+        ]
+      }
+    },
+    {
+      "t": 7.48,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.3014,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0806,
+          0.0,
+          0.2008
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2016
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2016
+        ],
+        "tip_pinky": [
+          0.1522,
+          0.0,
+          0.067
+        ]
+      }
+    },
+    {
+      "t": 7.52,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.3789,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0806,
+          0.0,
+          0.2009
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2019
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2019
+        ],
+        "tip_pinky": [
+          0.1535,
+          -0.0,
+          0.067
+        ]
+      }
+    },
+    {
+      "t": 7.56,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.38924,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0805,
+          0.0,
+          0.2007
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2017
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2017
+        ],
+        "tip_pinky": [
+          0.1549,
+          -0.0,
+          0.067
+        ]
+      }
+    },
+    {
+      "t": 7.6,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.33166,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0803,
+          0.0,
+          0.2004
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2012
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2012
+        ],
+        "tip_pinky": [
+          0.1566,
+          -0.0,
+          0.0669
+        ]
+      }
+    },
+    {
+      "t": 7.64,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.27365,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2004
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2004
+        ],
+        "tip_pinky": [
+          0.1585,
+          -0.0,
+          0.0666
+        ]
+      }
+    },
+    {
+      "t": 7.68,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.22072,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1996
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1996
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1996
+        ],
+        "tip_pinky": [
+          0.1606,
+          -0.0,
+          0.0664
+        ]
+      }
+    },
+    {
+      "t": 7.72,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.15887,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0797,
+          0.0,
+          0.1993
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1989
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1989
+        ],
+        "tip_pinky": [
+          0.1628,
+          -0.0,
+          0.0661
+        ]
+      }
+    },
+    {
+      "t": 7.76,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.10582,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0796,
+          0.0,
+          0.1991
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1985
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1985
+        ],
+        "tip_pinky": [
+          0.1651,
+          -0.0,
+          0.0659
+        ]
+      }
+    },
+    {
+      "t": 7.8,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.05966,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0795,
+          0.0,
+          0.1991
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1983
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1983
+        ],
+        "tip_pinky": [
+          0.1675,
+          -0.0,
+          0.0658
+        ]
+      }
+    },
+    {
+      "t": 7.84,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.03277,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0796,
+          0.0,
+          0.1992
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1984
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1984
+        ],
+        "tip_pinky": [
+          0.1701,
+          -0.0,
+          0.0657
+        ]
+      }
+    },
+    {
+      "t": 7.88,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.02899,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0797,
+          0.0,
+          0.1994
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1989
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1989
+        ],
+        "tip_pinky": [
+          0.1728,
+          -0.0,
+          0.0657
+        ]
+      }
+    },
+    {
+      "t": 7.92,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.08441,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1994
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1994
+        ],
+        "tip_pinky": [
+          0.1756,
+          -0.0,
+          0.0656
+        ]
+      }
+    },
+    {
+      "t": 7.96,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.09209,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2001
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2001
+        ],
+        "tip_pinky": [
+          0.1785,
+          -0.0,
+          0.0656
+        ]
+      }
+    },
+    {
+      "t": 8.0,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.14171,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0802,
+          0.0,
+          0.2003
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2006
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2006
+        ],
+        "tip_pinky": [
+          0.1816,
+          -0.0,
+          0.0655
+        ]
+      }
+    },
+    {
+      "t": 8.04,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.12932,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0803,
+          0.0,
+          0.2005
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.201
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.201
+        ],
+        "tip_pinky": [
+          0.1849,
+          -0.0,
+          0.0653
+        ]
+      }
+    },
+    {
+      "t": 8.08,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.09389,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0804,
+          0.0,
+          0.2005
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2011
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2011
+        ],
+        "tip_pinky": [
+          0.1885,
+          -0.0,
+          0.0651
+        ]
+      }
+    },
+    {
+      "t": 8.12,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.05398,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0803,
+          0.0,
+          0.2004
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.201
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.201
+        ],
+        "tip_pinky": [
+          0.1922,
+          -0.0,
+          0.0649
+        ]
+      }
+    },
+    {
+      "t": 8.16,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.08276,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0802,
+          0.0,
+          0.2003
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2007
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2007
+        ],
+        "tip_pinky": [
+          0.1959,
+          -0.0,
+          0.0648
+        ]
+      }
+    },
+    {
+      "t": 8.2,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.14094,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2002
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2002
+        ],
+        "tip_pinky": [
+          0.1996,
+          -0.0,
+          0.0646
+        ]
+      }
+    },
+    {
+      "t": 8.24,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.17728,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1997
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1997
+        ],
+        "tip_pinky": [
+          0.2034,
+          -0.0,
+          0.0646
+        ]
+      }
+    },
+    {
+      "t": 8.28,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.20762,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0798,
+          0.0,
+          0.1995
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1993
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1993
+        ],
+        "tip_pinky": [
+          0.2071,
+          -0.0,
+          0.0646
+        ]
+      }
+    },
+    {
+      "t": 8.32,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.24622,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0797,
+          0.0,
+          0.1994
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.199
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.199
+        ],
+        "tip_pinky": [
+          0.2108,
+          -0.0,
+          0.0647
+        ]
+      }
+    },
+    {
+      "t": 8.36,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.25368,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0797,
+          0.0,
+          0.1994
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1989
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1989
+        ],
+        "tip_pinky": [
+          0.2145,
+          -0.0,
+          0.0648
+        ]
+      }
+    },
+    {
+      "t": 8.4,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.27956,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0797,
+          0.0,
+          0.1994
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.199
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.199
+        ],
+        "tip_pinky": [
+          0.2183,
+          -0.0,
+          0.065
+        ]
+      }
+    },
+    {
+      "t": 8.44,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.29229,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0798,
+          0.0,
+          0.1996
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1992
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1992
+        ],
+        "tip_pinky": [
+          0.2221,
+          -0.0,
+          0.0651
+        ]
+      }
+    },
+    {
+      "t": 8.48,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.31618,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1996
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1996
+        ],
+        "tip_pinky": [
+          0.2261,
+          -0.0,
+          0.0652
+        ]
+      }
+    },
+    {
+      "t": 8.52,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.30467,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1999
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.2301,
+          -0.0,
+          0.0652
+        ]
+      }
+    },
+    {
+      "t": 8.56,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.26884,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2001
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2003
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2003
+        ],
+        "tip_pinky": [
+          0.2343,
+          -0.0,
+          0.0652
+        ]
+      }
+    },
+    {
+      "t": 8.6,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.27816,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0802,
+          0.0,
+          0.2002
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2006
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2006
+        ],
+        "tip_pinky": [
+          0.2385,
+          -0.0,
+          0.065
+        ]
+      }
+    },
+    {
+      "t": 8.64,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.25545,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0802,
+          0.0,
+          0.2003
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2006
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2006
+        ],
+        "tip_pinky": [
+          0.2427,
+          -0.0,
+          0.0648
+        ]
+      }
+    },
+    {
+      "t": 8.68,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.21392,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0802,
+          0.0,
+          0.2002
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2006
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2006
+        ],
+        "tip_pinky": [
+          0.2469,
+          -0.0,
+          0.0646
+        ]
+      }
+    },
+    {
+      "t": 8.72,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.19052,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2001
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2004
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2004
+        ],
+        "tip_pinky": [
+          0.251,
+          -0.0,
+          0.0644
+        ]
+      }
+    },
+    {
+      "t": 8.76,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.17704,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2001
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2001
+        ],
+        "tip_pinky": [
+          0.2549,
+          -0.0,
+          0.0644
+        ]
+      }
+    },
+    {
+      "t": 8.8,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.21618,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1997
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1997
+        ],
+        "tip_pinky": [
+          0.2585,
+          -0.0,
+          0.0644
+        ]
+      }
+    },
+    {
+      "t": 8.84,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.25123,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1995
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1995
+        ],
+        "tip_pinky": [
+          0.262,
+          -0.0,
+          0.0646
+        ]
+      }
+    },
+    {
+      "t": 8.88,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.23944,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0798,
+          0.0,
+          0.1996
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1993
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1993
+        ],
+        "tip_pinky": [
+          0.2652,
+          -0.0,
+          0.0649
+        ]
+      }
+    },
+    {
+      "t": 8.92,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.20765,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0798,
+          0.0,
+          0.1996
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1993
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1993
+        ],
+        "tip_pinky": [
+          0.2684,
+          -0.0,
+          0.0652
+        ]
+      }
+    },
+    {
+      "t": 8.96,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.2232,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0798,
+          0.0,
+          0.1996
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1993
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1993
+        ],
+        "tip_pinky": [
+          0.2716,
+          -0.0,
+          0.0655
+        ]
+      }
+    },
+    {
+      "t": 9.0,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.2098,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1995
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1995
+        ],
+        "tip_pinky": [
+          0.2749,
+          -0.0,
+          0.0656
+        ]
+      }
+    },
+    {
+      "t": 9.04,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.2342,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.2783,
+          -0.0,
+          0.0656
+        ]
+      }
+    },
+    {
+      "t": 9.08,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.27211,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1999
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.2819,
+          -0.0,
+          0.0653
+        ]
+      }
+    },
+    {
+      "t": 9.12,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.28537,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2002
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2002
+        ],
+        "tip_pinky": [
+          0.2855,
+          -0.0,
+          0.0649
+        ]
+      }
+    },
+    {
+      "t": 9.16,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.29764,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2001
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2003
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2003
+        ],
+        "tip_pinky": [
+          0.289,
+          -0.0,
+          0.0643
+        ]
+      }
+    },
+    {
+      "t": 9.2,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.28315,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2001
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2004
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2004
+        ],
+        "tip_pinky": [
+          0.2924,
+          -0.0,
+          0.0639
+        ]
+      }
+    },
+    {
+      "t": 9.24,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.25894,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2001
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2003
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2003
+        ],
+        "tip_pinky": [
+          0.2953,
+          -0.0,
+          0.0636
+        ]
+      }
+    },
+    {
+      "t": 9.28,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.26435,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2001
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2001
+        ],
+        "tip_pinky": [
+          0.2977,
+          -0.0,
+          0.0636
+        ]
+      }
+    },
+    {
+      "t": 9.32,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.29899,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1999
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.2994,
+          -0.0,
+          0.0641
+        ]
+      }
+    },
+    {
+      "t": 9.36,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.30706,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1997
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1997
+        ],
+        "tip_pinky": [
+          0.3005,
+          -0.0,
+          0.0649
+        ]
+      }
+    },
+    {
+      "t": 9.4,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.24147,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1995
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1995
+        ],
+        "tip_pinky": [
+          0.3013,
+          -0.0,
+          0.0659
+        ]
+      }
+    },
+    {
+      "t": 9.44,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.23593,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1995
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1995
+        ],
+        "tip_pinky": [
+          0.3019,
+          -0.0,
+          0.0668
+        ]
+      }
+    },
+    {
+      "t": 9.48,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.25938,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1995
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1995
+        ],
+        "tip_pinky": [
+          0.3027,
+          -0.0,
+          0.0674
+        ]
+      }
+    },
+    {
+      "t": 9.52,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.29067,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1996
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1996
+        ],
+        "tip_pinky": [
+          0.3041,
+          -0.0,
+          0.0673
+        ]
+      }
+    },
+    {
+      "t": 9.56,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.26075,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.3064,
+          -0.0,
+          0.0663
+        ]
+      }
+    },
+    {
+      "t": 9.6,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.19137,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1999
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2
+        ],
+        "tip_pinky": [
+          0.3094,
+          -0.0,
+          0.0644
+        ]
+      }
+    },
+    {
+      "t": 9.64,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.17857,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1999
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2001
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2001
+        ],
+        "tip_pinky": [
+          0.313,
+          -0.0,
+          0.0619
+        ]
+      }
+    },
+    {
+      "t": 9.68,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.1839,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2002
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2002
+        ],
+        "tip_pinky": [
+          0.3162,
+          -0.0,
+          0.0595
+        ]
+      }
+    },
+    {
+      "t": 9.72,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.20073,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1997
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2002
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2002
+        ],
+        "tip_pinky": [
+          0.3178,
+          -0.0,
+          0.0584
+        ]
+      }
+    },
+    {
+      "t": 9.76,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.18305,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1997
+        ],
+        "tip_index": [
+          -0.0801,
+          0.0,
+          0.2
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.2001
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.2001
+        ],
+        "tip_pinky": [
+          0.316,
+          -0.0,
+          0.06
+        ]
+      }
+    },
+    {
+      "t": 9.8,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.15564,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1997
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1999
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1999
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1999
+        ],
+        "tip_pinky": [
+          0.3085,
+          -0.0,
+          0.0662
+        ]
+      }
+    },
+    {
+      "t": 9.84,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.17454,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.1998
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1997
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1997
+        ],
+        "tip_pinky": [
+          0.293,
+          -0.0,
+          0.0792
+        ]
+      }
+    },
+    {
+      "t": 9.88,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.21161,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1995
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1995
+        ],
+        "tip_pinky": [
+          0.2672,
+          -0.0,
+          0.1009
+        ]
+      }
+    },
+    {
+      "t": 9.92,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.23831,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2001
+        ],
+        "tip_index": [
+          -0.0799,
+          0.0,
+          0.1997
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1996
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1996
+        ],
+        "tip_pinky": [
+          0.2288,
+          -0.0,
+          0.1333
+        ]
+      }
+    },
+    {
+      "t": 9.96,
+      "button_depth": 0.00904,
+      "slider_pos": 0.05092,
+      "keyg_depth": 0.00502,
+      "keyb_depth": 0.00502,
+      "wheel_angle": 4.26554,
+      "tips": {
+        "tip_thumb": [
+          -0.15,
+          0.0,
+          0.2
+        ],
+        "tip_index": [
+          -0.08,
+          0.0,
+          0.1998
+        ],
+        "tip_middle": [
+          0.03,
+          0.0,
+          0.1998
+        ],
+        "tip_ring": [
+          0.07,
+          0.0,
+          0.1998
+        ],
+        "tip_pinky": [
+          0.1763,
+          -0.0,
+          0.1776
+        ]
+      }
+    }
+  ]
+}

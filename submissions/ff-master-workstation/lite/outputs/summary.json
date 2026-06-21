@@ -1,0 +1,18 @@
+{
+  "controller": "learned imitation + sensor feedback",
+  "metrics": {
+    "button_depth": 0.032831573654069,
+    "slider_pos": 0.07583972531604977,
+    "keyg_depth": 0.02797812409798924,
+    "keyb_depth": 0.02797812409798924,
+    "wheel_angle": 4.790638553117541,
+    "chord_sim": 0.02797812409798924
+  },
+  "success": {
+    "button": true,
+    "slider": true,
+    "chord": true,
+    "wheel": true
+  },
+  "all_pass": true
+}

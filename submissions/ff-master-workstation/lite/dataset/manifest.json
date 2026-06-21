@@ -1,0 +1,109 @@
+{
+  "controller": "learned imitation + sensor feedback",
+  "episodes": [
+    {
+      "file": "ep000.npz",
+      "seed": 0,
+      "frames": 313,
+      "metrics": {
+        "button_depth": 0.03547,
+        "slider_pos": 0.07637,
+        "keyg_depth": 0.02973,
+        "keyb_depth": 0.02966,
+        "wheel_angle": 84.09438,
+        "chord_sim": 0.02937
+      },
+      "success": {
+        "button": true,
+        "slider": true,
+        "chord": true,
+        "wheel": true
+      },
+      "all_pass": true
+    },
+    {
+      "file": "ep001.npz",
+      "seed": 1,
+      "frames": 313,
+      "metrics": {
+        "button_depth": 0.03517,
+        "slider_pos": 0.07606,
+        "keyg_depth": 0.02976,
+        "keyb_depth": 0.0299,
+        "wheel_angle": 9.99453,
+        "chord_sim": 0.02933
+      },
+      "success": {
+        "button": true,
+        "slider": true,
+        "chord": true,
+        "wheel": true
+      },
+      "all_pass": true
+    },
+    {
+      "file": "ep002.npz",
+      "seed": 2,
+      "frames": 313,
+      "metrics": {
+        "button_depth": 0.03539,
+        "slider_pos": 0.07602,
+        "keyg_depth": 0.02953,
+        "keyb_depth": 0.03029,
+        "wheel_angle": 4.97019,
+        "chord_sim": 0.02922
+      },
+      "success": {
+        "button": true,
+        "slider": true,
+        "chord": true,
+        "wheel": true
+      },
+      "all_pass": true
+    },
+    {
+      "file": "ep003.npz",
+      "seed": 3,
+      "frames": 313,
+      "metrics": {
+        "button_depth": 0.03568,
+        "slider_pos": 0.07598,
+        "keyg_depth": 0.02986,
+        "keyb_depth": 0.03026,
+        "wheel_angle": 6.94628,
+        "chord_sim": 0.02948
+      },
+      "success": {
+        "button": true,
+        "slider": true,
+        "chord": true,
+        "wheel": true
+      },
+      "all_pass": true
+    },
+    {
+      "file": "ep004.npz",
+      "seed": 4,
+      "frames": 313,
+      "metrics": {
+        "button_depth": 0.03518,
+        "slider_pos": 0.07629,
+        "keyg_depth": 0.03,
+        "keyb_depth": 0.02997,
+        "wheel_angle": 4.95131,
+        "chord_sim": 0.02955
+      },
+      "success": {
+        "button": true,
+        "slider": true,
+        "chord": true,
+        "wheel": true
+      },
+      "all_pass": true
+    }
+  ],
+  "jitter": 0.004,
+  "num_episodes": 5,
+  "num_success": 5,
+  "success_rate": 1.0
+}
