@@ -1,0 +1,42 @@
+{
+  "episodes": [
+    {
+      "file": "ep00_valve.npz",
+      "episode": 0,
+      "task": "valve",
+      "steps": 680,
+      "state_dim": 35,
+      "action_dim": 31
+    },
+    {
+      "file": "ep00_button.npz",
+      "episode": 0,
+      "task": "button",
+      "steps": 440,
+      "state_dim": 35,
+      "action_dim": 31
+    },
+    {
+      "file": "ep00_lever.npz",
+      "episode": 0,
+      "task": "lever",
+      "steps": 380,
+      "state_dim": 35,
+      "action_dim": 31
+    },
+    {
+      "file": "ep00_slider.npz",
+      "episode": 0,
+      "task": "slider",
+      "steps": 1008,
+      "state_dim": 35,
+      "action_dim": 31
+    }
+  ],
+  "schema": {
+    "qpos": "generalized positions (m, rad)",
+    "qvel": "generalized velocities",
+    "ctrl": "action = per-joint motor torque command (N\u00b7m)",
+    "controls": "live valve_deg/button_mm/lever_deg/slider_mm + fingertip touch (N)"
+  }
+}

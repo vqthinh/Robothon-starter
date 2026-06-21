@@ -1,0 +1,185 @@
+<div align="center">
+
+# FF Master Workstation
+
+### A humanoid operating the industrial controls the world already runs on
+
+**Faraday Future FF Master · 31-DOF whole-body torque control · MuJoCo**
+
+`mujoco>=3.9` · pure-CPU · one-command run · 36-trial reproducible benchmark · telemetry demo video
+
+</div>
+
+---
+
+## TL;DR (every number measured from simulation — none hard-coded)
+
+| Metric                                                 | Result                                                                |
+| ------------------------------------------------------ | --------------------------------------------------------------------- |
+| Tasks operated on a human-designed control panel       | **4** — hand-wheel valve, start button, toggle lever, throttle slider |
+| Benchmark                                              | **36 trials** (4 controls × setpoint sweep × 3 panel-jitter seeds)    |
+| Overall success rate                                   | **100 %** (36 / 36)                                                   |
+| Pose-tracking error of the whole-body controller       | **≈ 0 rad** (gravity-compensated PD, fixed base)                      |
+| Button press: peak contact force / clean spring return | **8.7 N** (< 15 N crush) / returns to **3.6 mm**                      |
+| Slider set-point tracking error                        | **4.1 mm**                                                            |
+| Robust to panel placement jitter                       | **±3 mm**, skills read live control positions                         |
+
+Reproduce everything: `pip install -r requirements.txt && python run.py`
+
+---
+
+## What it is
+
+Most robot demos build a bespoke task around the robot. The unglamorous reality of brownfield
+automation — factories, plant rooms, vehicle lines, the kind of facilities Faraday Future runs — is
+the opposite: the **world is already full of controls designed for human hands**. Valves, start
+buttons, mode levers, throttle sliders. A humanoid that can walk up to _equipment that already
+exists_ and operate it is worth far more than one that needs the world rebuilt around it.
+
+**FF Master Workstation** puts Faraday Future's **FF Master** humanoid (shipped in this repo under
+`assets/Master/`) at an industrial control panel and has it autonomously run a **machine start-up
+sequence**: open the main valve, press the green start button, flip the mode lever, and set the
+throttle — each as a closed-loop skill, each verified against a quantitative benchmark, all rendered
+into a telemetry demo video.
+
+The starter ships FF Master only as a _kinematic_ pose animation (it sets `qpos` each frame, never
+calls `mj_step`). This project drives the **real torque-controlled robot**: the model is
+direct-torque (`<motor>`) actuated with a free-floating base, so we implement genuine
+**gravity-compensated whole-body control** and **operational-space reaching** — the control depth the
+baseline skips entirely.
+
+## Robot platform
+
+- **FF Master** humanoid (`assets/Master/ff_master_ultra.xml`), **31 actuated DOF**
+  (legs ×12, waist ×3, head ×2, arms ×14), direct-torque motors, ~45 kg.
+- Converted in code (MjSpec) to a **fixed-base manipulation station** — the pelvis is mounted on a
+  pedestal, so the robot cannot fall and every joule of actuation goes into the task.
+- **Soft tactile pads** added to each palm with **touch sensors**; contact forces are read live from
+  the MuJoCo contact stream (`mj_contactForce`).
+
+## Task goal
+
+Operate a panel of **human-designed industrial controls** — with no fixturing, no magic attachments,
+just contact — through a realistic machine **start-up sequence**, and hold each control's state:
+
+| Control              | Mechanism (MuJoCo)                     | Skill                                           |
+| -------------------- | -------------------------------------- | ----------------------------------------------- |
+| **Valve hand-wheel** | hinge joint, two grab handles          | **bimanual** — both hands turn it open          |
+| **Start button**     | spring-return plunger on a slide joint | **force-feedback** press to actuation, no crush |
+| **Mode lever**       | hinge joint with a detent              | flip past centre                                |
+| **Throttle slider**  | prismatic joint                        | push to a target position                       |
+
+## Technical approach
+
+1. **Programmatic scene (`scene.py`, MjSpec API).** FF Master is loaded, its floating base removed
+   (fixed station), palm pads + touch sensors are attached, and the control panel — valve, button,
+   lever, slider, cabinet — is composed entirely in code, so the vendored humanoid stays pristine and
+   the panel layout is fully parametric (jitter-able for the robustness benchmark). The four control
+   mechanisms use real MuJoCo **hinge / slide joints** with tuned stiffness, damping and dry friction.
+
+2. **Whole-body controller (`controller.py`).** A computed-torque law evaluated every step:
+   `tau = qfrc_bias(q,q̇) + Kp·(q_des − q) − Kd·q̇`. `qfrc_bias` is MuJoCo's exact gravity + Coriolis
+   term, so the humanoid holds any commanded posture to ~0 error. The motors have gear 1, so
+   `ctrl = tau`.
+
+3. **Operational-space reaching (`kinematics.py`).** Hand goals are reached with damped-least-squares
+   IK solved on a scratch `MjData` (pure kinematics, joint-limit-respecting), then tracked by the
+   gravity-compensated PD law — robust and fast.
+
+4. **Closed-loop skills (`tasks.py`).** Every skill is closed-loop on a _measured physical signal_,
+   not an open-loop trajectory: the valve keeps turning until the measured **hinge angle** reaches
+   target (the hands lead the wheel, absorbing slip); the button advances until the measured
+   **contact force** crosses the actuation threshold; the lever and slider drive until their measured
+   **joint state** reaches target. This makes the skills robust to contact slip and panel jitter.
+
+## Core features
+
+- **Genuine whole-body torque control** of a 31-DOF humanoid (gravity comp + PD), not kinematic
+  scripting — tracks any posture at ~0 error.
+- **Bimanual coordination** — both arms turn one hand-wheel in sync.
+- **Force-feedback manipulation** — the button is pressed under live contact-force feedback and
+  released cleanly, never exceeding its crush rating.
+- **Robust closed-loop skills** — closed on measured joint angle / contact force, robust to ±3 mm
+  panel jitter (skills read live control positions).
+- **Quantitative benchmark** — 36 trials, deterministic, measured-from-physics, JSON + CSV.
+- **Telemetry demo video** — generated by the code, every on-screen number read live from the sim.
+- **Data-collection pipeline** — exports `(state, action)` trajectories (`results/dataset/*.npz`) for
+  imitation / offline-RL training.
+- **Keyboard teleoperation** — drive either hand's Cartesian target by hand through the same
+  controller.
+
+## Highlights
+
+- The starter's FF Master demo never calls `mj_step`; this is the first **physically actuated** FF
+  Master in the repo — real gravity compensation, real contacts, real force feedback.
+- One controller, one panel, **four qualitatively different control mechanisms** (rotary, plunger,
+  toggle, linear) — breadth of manipulation, not a single trick.
+- A framing the field under-serves: **embodied AI for the human-designed equipment that already
+  exists**, directly on the sponsor's flagship robot.
+
+## How this maps to the rubric
+
+| Rubric dimension        | Where it shows up                                                                                                                                                                                             |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Reproducibility**     | `pip install -r requirements.txt && python run.py`; pure CPU, deterministic seeds, no missing assets.                                                                                                         |
+| **Depth of MuJoCo use** | MjSpec programmatic model building, free-joint removal, hinge/slide joints with stiffness/damping/friction, touch sensors, `mj_contactForce`, `mj_jacBody` IK, `qfrc_bias` gravity comp, offscreen rendering. |
+| **Task design**         | Operating real human-designed controls (valve/button/lever/slider) through a machine start-up sequence — clear, challenging, and directly relevant to factory/vehicle automation.                             |
+| **Control**             | Whole-body computed-torque + DLS IK + closed-loop force feedback + bimanual coordination; autonomy, teleoperation, and data collection all included.                                                          |
+| **Dexterity**           | Bimanual coordination turning a single wheel; fine force-regulated contact on the button.                                                                                                                     |
+| **Engineering quality** | Small typed modules (`scene`/`kinematics`/`controller`/`tasks`/`benchmark`/`record_demo`/`dataio`/`teleop`), one entry point, pinned deps, vendored model untouched.                                          |
+| **Presentation**        | Telemetry-overlay demo video, all values generated live by the code.                                                                                                                                          |
+| **Innovation**          | Reframes the task as _operating the controls the world already has_ — on the sponsor's own humanoid, which the starter only animates kinematically.                                                           |
+
+## Benchmark results
+
+`results/benchmark.json` + `results/benchmark.csv`. Summary (3 seeds, 36 trials):
+
+```
+overall_success_rate      : 1.00      # 36 / 36
+valve   success 1.00  ·  mean opened 20.3°  ·  grip 39.9 N
+button  success 1.00  ·  peak 8.7 N (max 8.9 < 15 crush)  ·  returns to 3.6 mm
+lever   success 1.00  ·  mean flipped 54.1°
+slider  success 1.00  ·  mean tracking error 4.1 mm
+```
+
+## How to run
+
+```bash
+pip install -r requirements.txt
+
+python run.py                 # quantitative benchmark -> results/benchmark.{json,csv}
+python run.py --quick         # fast benchmark (1 seed)
+python run.py --demo          # render the telemetry demo video -> results/demo.mp4
+python run.py --collect       # collect a state/action dataset -> results/dataset/
+python run.py --teleop        # keyboard teleoperation (needs a display)
+```
+
+No GPU required. The full 36-trial benchmark runs in ~1.5 minutes on a CPU; `--quick` in ~30 s.
+
+## Demo video
+
+`results/demo.mp4` — produced by `python run.py --demo`. Title card, then four segments
+(bimanual valve → force-feedback button → toggle lever → throttle slider), each with a live
+telemetry panel showing the control state and fingertip contact force read straight from the
+simulation.
+
+## Current limitations
+
+- The base is fixed (a mounted station), so this studies **manipulation**, not locomotion or balance.
+- The hands are FF Master's rigid end-effectors plus a contact pad, not articulated fingers; "dexterity"
+  here is **bimanual coordination and force-regulated contact**, not multi-finger in-hand manipulation.
+- The hand-wheel is opened through a reliable ~20° crack (the arms' reachable arc); continuous
+  hand-over-hand turning is left as future work.
+
+## Future improvements
+
+- Restore the floating base and add a balance controller for **whole-body loco-manipulation** (walk
+  up to the panel, then operate it).
+- **Hand-over-hand re-grasping** to turn the valve a full 90°+.
+- Mount a dexterous hand (Shadow / LEAP) on the FF Master wrist for multi-finger manipulation.
+- Train a policy from the collected `(state, action)` dataset and close the loop end-to-end.
+
+## Credits & license
+
+- **FF Master** humanoid model: Faraday Future, shipped in this repository under `assets/Master/`.
+- Built with an AI coding agent as part of FFAI Robothon Summer 2026.

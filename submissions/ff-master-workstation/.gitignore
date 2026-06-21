@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+scratch_out/
+scratch_*.py
+results/dataset/
